@@ -96,28 +96,10 @@ input[type="checkbox"] {
     color: #ccc;
   }
 
-  .menu-responsive {
-    display: flex;
-    flex-direction: column;
-    background-color: #333;
-    color: #fff;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right: 0;
-    padding: 10px;
-  }
-
-  .menu-responsive a {
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 10px;
-  }
-
   .menu {
     display: none;
     position: absolute;
-    background-color: #000000;
+    background-color: #fff;
     right: 0;
     left: 0;
     text-align: center;
@@ -126,7 +108,7 @@ input[type="checkbox"] {
 
   .menu li:hover {
     display: inline-block;
-    background-color: #141414;
+    background-color: #ccc;
     transition: 0.3s ease;
   }
 
